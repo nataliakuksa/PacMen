@@ -16,6 +16,7 @@ var direction = 0;
 // This variable helps determine which PacMan image should be displayed. It flips between values 0 and 1
 var focus = 0;
 
+
 // This function is called on mouse click. Every time it is called, it updates the PacMan image, position and direction on the screen.
 function Run() {
   let img = document.getElementById('PacMan');
